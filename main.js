@@ -73,13 +73,14 @@ let girls = [
  }
 ];
 
-let group = DocumentTimeline.querySelector (".girls-group")
+let group = document.querySelector(".girls-group")
 
 girls.forEach ((item, index) => {
     console.log(`${item.name}`);
     group.innerHTML+=`
     <div class="girls">
-    <img src="${item.image}" alt="bu yerda rasm bor" loading="lazy">
+    <img src="${item.image}" alt="bu yerda rasm bor" loading="lazy" class="girls-image">
+    <h2 class="girls-h1">${item.name}</h2>
     </div>
     `
 })
