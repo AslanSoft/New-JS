@@ -10,28 +10,55 @@ body{
 }
 
 .girls-h1{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
     font-weight: 60px;
-    font-size: 40px;
-    color: gray;
+    font-size: 24px;
+    line-height: 15px;
+    color: #7dc9f5;
 }
 
 .girls-group{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
     gap: 20px;
 }
 
 .girls{
     border: 1px solid;
 }
+
+.girls-age-and-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
 .girls-image{
     display: flex;
     justify-content: center;
     width: 250px;
     height: 250px;
     border-radius: 100%;
+}
+
+.girls-p{
+    margin-top: 5px;
+    font-weight: 60px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #60747e;
+}
+
+.girls-pp{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 60px;
+    font-size: 18px;
+    line-height: 15px;
+    color: #70a0b8;
 }

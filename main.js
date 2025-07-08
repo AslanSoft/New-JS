@@ -80,7 +80,11 @@ girls.forEach ((item, index) => {
     group.innerHTML+=`
     <div class="girls">
     <img src="${item.image}" alt="bu yerda rasm bor" loading="lazy" class="girls-image">
-    <h2 class="girls-h1">${item.name}</h2>
+    <div class="girls-age-and-name">
+    <h2 class="girls-h1">${item.name + item.surname}</h2>
+    <p class="girls-p">${item.age}</p>
+    </div>
+    <p class="girls-pp">${item.fashion}</p>
     </div>
     `
 })
